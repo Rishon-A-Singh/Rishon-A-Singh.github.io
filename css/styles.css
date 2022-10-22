@@ -8319,6 +8319,8 @@ fieldset:disabled .btn {
 }
 
 .rounded-circle {
+  /* border: 1px solid red; */
+  max-width: 17%;
   border-radius: 50% !important;
 }
 
@@ -11802,8 +11804,12 @@ p {
 #mastheadInfo > p {
   max-width: 500px;
   margin: auto;
-  /* border: 1px solid red; */
 }
+
+/* #mastheadInfo > img {
+  
+  max-height: 10%;
+} */
 
 header.masthead {
   padding-top: 10.5rem;
@@ -11834,6 +11840,7 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  border: 1px solid red;
 }
 
 @media (min-width: 768px) {
@@ -12211,4 +12218,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.footer > .container {
+  width: 40%;
+  /* border: 1px solid red; */
 }
