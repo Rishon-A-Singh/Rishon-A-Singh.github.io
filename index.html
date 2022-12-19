@@ -11,6 +11,7 @@
     <title>Rishon Portfolio</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
     <!-- Font Awesome icons (free version)-->
     <script
       src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
@@ -21,7 +22,9 @@
     rel="stylesheet"
     href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
     theme="gruvbox"
-/>
+    />
+    <!-- //my addition -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google fonts-->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
@@ -62,7 +65,7 @@
               <a class="nav-link" href="#portfolio">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Resume</a>
+              <a class="nav-link" href="#about">GitHub</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#services">Skills | Contact</a>
@@ -75,21 +78,37 @@
     <header class="masthead" id="team">
       <div class="container">
         <!--<div class="masthead-heading text-uppercase">Rishon's portfolio</div> -->
-        <div id="mastheadInfo">
+        <div id="mastheadInfo"   >
           <img
             class="mx-auto rounded-circle"
             src="assets/img/team/2.jpg"
             alt="..."
           />
+          <br>
+          <br>
           <div class="masthead-subheading">
-            Hello! I'm Rishon, a Java Backend Developer
+            Hello, I'm Rishon, a Java Backend Developer
+            
           </div>
-          <p class="section-heading">
+          <br>
+          <p class="section-heading" >
             I am an art student turned Java-backed developer. I am passionate
             about building digital products. I love to think of creative and
             time/space optimised solutions to real world problems. Apart from
             coding I am also interested in architecture, music, and photography.
           </p>
+          <br> 
+        
+          <button
+                  class="btn btn-dark btn-xl"
+                 style="height: 20%; max-width: 30%; padding: 1%; border-radius: 15px;"
+                >
+                <a href="/assets/img/Rishon-Singh-Resume.pdf" target="_blank">My Resume</a>
+                  
+                </button>
+          
+          <br>
+          
         </div>
 
         <!-- <a class="btn btn-primary btn-xl text-uppercase" href="#about"
@@ -136,6 +155,12 @@
                   functional.
                 </div>
                 <a
+                  class="btn btn-dark btn-social"
+                  href="https://myntra1-clone.netlify.app/"
+                  target="_blank"
+                  ><img src="/assets/img/logos/icons8-globe-48.png" alt="">
+                </a>
+                <a
                   class="btn btn-dark btn-social mx-2"
                   href="https://github.com/AkashKeshari111/Myntra-Clone"
                   target="_blank"
@@ -173,6 +198,12 @@
                   cart pages all made with javascript.
                 </div>
                 <a
+                  class="btn btn-dark btn-social"
+                  href="https://sephora-clone-website.netlify.app/"
+                  target="_blank"
+                  ><img src="/assets/img/logos/icons8-globe-48.png" alt="">
+                </a>
+                <a
                   class="btn btn-dark btn-social mx-2"
                   href="https://github.com/Suraj-Badwaik/Sephora-clone"
                   target="_blank"
@@ -203,19 +234,23 @@
               </a>
               <div class="portfolio-caption">
                 <div class="portfolio-caption-heading">
-                  Food delivery app backend
+                  Trip Management Backend
                 </div>
                 <h6>Java | SpringBoot | Maven</h6>
                 <div class="portfolio-caption-subheading text-muted">
-                  This is the backend part of an online food delivery app, and
-                  it has no frontend. It contains login validation logic, the
-                  entire user flow from selecting food to checkout for the
-                  customer and the ability to add restaurants and dishes for the
-                  restaurant owner.
+                  
+This is the backend of an online trip management app, it has no frontend. It contains the entire user flow for customers and admin users to signup/login, check availability, book/cancel tickets and receive all the trip information.
+
                 </div>
                 <a
+                  class="btn btn-dark btn-social"
+                  href="https://drive.google.com/file/d/1t8q-Hg8N54gR19RKfNmvQRAx0Wpb2mL0/view"
+                  target="_blank"
+                  ><img src="/assets/img/logos/icons8-globe-48.png" alt="">
+                </a>
+                <a
                   class="btn btn-dark btn-social mx-2"
-                  href="https://github.com/Anjani1598/Online_food_orderApp"
+                  href="https://github.com/akash-github-25/tangible-station-4401"
                   target="_blank"
                   aria-label="Diana Petersen LinkedIn Profile"
                   ><i class="fab fa-github"></i
@@ -252,6 +287,12 @@
                   city searched for.
                 </div>
                 <a
+                  class="btn btn-dark btn-social"
+                  href="https://rishonweatherapp.netlify.app/"
+                  target="_blank"
+                  ><img src="/assets/img/logos/icons8-globe-48.png" alt="">
+                </a>
+                <a
                   class="btn btn-dark btn-social mx-2"
                   href="https://github.com/Rishon-A-Singh/WeatherApp"
                   target="_blank"
@@ -270,11 +311,8 @@
       <div class="container">
         <div class="text-center">
           <!-- <h2 class="section-heading">Resume</h2> -->
-          <h2>
-            <a href="/assets/img/Rishon-Singh-Resume.pdf" download>
-              Download my resume here</a
-            >
-          </h2>
+          
+          <h2 class="section-heading text-uppercase">Github Statistics</h2>
           <br /><br />
           <p>
             <div class="calendar" >
@@ -287,11 +325,15 @@
               alt="Rishon-A-Singh"
               width="47%"
             />
+            
             <img
               src="https://github-readme-stats.vercel.app/api?username=Rishon-A-Singh&show_icons=true&locale=en&theme=gruvbox"
               alt="Rishon-A-Singh"
               width="47%"
             />
+            <br>
+            <br>
+            
             <img
               src="https://github-readme-stats.vercel.app/api/top-langs?username=Rishon-A-Singh&show_icons=true&locale=en&theme=gruvbox"
               alt="Rishon-A-Singh"
